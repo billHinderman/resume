@@ -1,0 +1,8 @@
+.dont-print-this {
+  display: none;
+}
+@media print {
+  .dont-print-this {
+    display: block;
+  }
+}

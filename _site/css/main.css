@@ -420,6 +420,12 @@ form b {
   font-size: 1.25em;
   margin: 8px; }
 
+.dont-print-this {
+  display: none; }
+
+@media print {
+  .dont-print-this {
+    display: block; } }
 /*!
  *  Font Awesome 4.4.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
