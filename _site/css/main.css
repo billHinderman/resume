@@ -308,6 +308,9 @@ form b {
     .page-main {
       font-size: 22.624px; } }
 
+#section-gist .link {
+  font-size: 16px; }
+
 .section-resume {
   padding: 32px 0; }
 
@@ -334,6 +337,11 @@ form b {
 
 .list-inline li:not(:last-of-type) {
   margin-right: 8px; }
+
+.list-bullet {
+  color: #aaaaaa;
+  list-style-type: disc;
+  margin-left: 16px; }
 
 @media screen and (min-width: 800px) {
   .resume-item-heading {

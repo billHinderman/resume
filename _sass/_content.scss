@@ -7,7 +7,9 @@
     font-size: 1.414*$em;
   }
 }
-
+#section-gist .link {
+  font-size: $em;
+}
 .section-resume {
   padding: 2*$em 0;
 }
@@ -35,6 +37,11 @@
 }
 .list-inline li:not(:last-of-type) {
   margin-right: .5*$em;
+}
+.list-bullet {
+  color: $grey_md;
+  list-style-type: disc;
+  margin-left: $em;
 }
 @media screen and (min-width: $m-l) {
   .resume-item-heading {
