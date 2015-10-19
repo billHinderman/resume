@@ -1,0 +1,81 @@
+.page-main {
+  //font-size: 1.414*$em;
+  flex-grow: 1;
+  position: relative;
+  z-index: 0;
+  @media screen and (min-width: $s-s-m) {
+    font-size: 1.414*$em;
+  }
+}
+
+.section-resume {
+  padding: 2*$em 0;
+}
+.resume-item {
+  padding: $em 0;
+}
+.resume-item:not(:last-of-type) {
+  border-bottom: 1px solid $grey_md;
+}
+.resume-item-time {
+  color: $grey_md;
+  font-family: $helvetica;
+  font-weight: bold;
+  font-size: .75*$em;
+}
+
+.resume-item-location {
+  font-size: $em;
+}
+.resume-item-main + .resume-item-description {
+  margin-top: 1.414*$em;
+}
+.list-inline li {
+  display: inline-block;
+}
+.list-inline li:not(:last-of-type) {
+  margin-right: .5*$em;
+}
+@media screen and (min-width: $m-l) {
+  .resume-item-heading {
+    float: left;
+    max-width: 55%;
+  }
+  .resume-item-info {
+    float: right;
+    max-width: 45%;
+    text-align: right;
+  }
+}
+@media screen and (min-width: $l) {
+  .resume-item-heading {
+    max-width: 60%;
+  }
+  .resume-item-info {
+    max-width: 40%;
+  }
+}
+.resume-item .link {
+  font-size: $em;
+}
+
+
+.skills-list {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+
+  -webkit-column-width: 288px;
+  column-width: 288px;
+
+  margin-top: 1.414*$em;
+}
+.skills-list li {
+  white-space: nowrap;
+}
+.skills-description {
+  color: $grey_md;
+  font-family: $helvetica;
+  font-weight: bold;
+  font-size: .75*$em;
+}

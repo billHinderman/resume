@@ -1,0 +1,12 @@
+# Site settings
+title: Bill Hinderman
+email: bill@billhinderman.com
+description: > # this means to ignore newlines until "baseurl:"
+  The professional resume of Bill Hinderman: engineer, designer, author, and national speaker.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://resume.billhinderman.com" # the base hostname & protocol for your site
+twitter_username: billHinderman
+github_username:  billhinderman
+
+# Build settings
+markdown: kramdown

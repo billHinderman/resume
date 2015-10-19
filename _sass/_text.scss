@@ -1,0 +1,46 @@
+h1 {
+  font-family: $helvetica;
+  font-size: 1.999*$em;
+  font-weight: bold;
+}
+
+h2 {
+  color: $blue;
+  font-family: $helvetica;
+  font-size: $em;
+  font-weight: bold;
+}
+
+* + h2 {
+  margin-top: 2.828*$em;
+}
+
+h3 {
+  font-family: $helvetica;
+  font-size: 1.414*$em;
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.text-black {
+  color: $black;
+}
+.text-white {
+  color: $white;
+}
+.text-yellow {
+  color: $yellow;
+}
+.text-blue {
+  color: $blue;
+}
+.text-gmd {
+  color: $grey_md;
+}
+.text-glt {
+  color: $grey_lt;
+}

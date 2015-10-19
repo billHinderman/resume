@@ -1,0 +1,20 @@
+.contact-list {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+
+  -webkit-column-width: 288px;
+  column-width: 288px;
+
+  margin-top: 1.414*$em;
+}
+.contact-list li {
+  margin-bottom: 1.414*$em;
+  white-space: nowrap;
+}
+.contact-list i {
+  display: inline-block;
+  vertical-align: middle;
+  width: 1.5em;
+}
+

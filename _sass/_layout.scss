@@ -1,0 +1,34 @@
+.flex-container {
+  align-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.wrapper-s {
+  padding: 0 2*$em;
+  max-width: 50*$em;
+  margin: 2*$em auto;
+}
+.wrapper {
+  padding: 0 2*$em;
+  max-width: 64*$em;
+  margin: 2*$em auto;
+}
+.wrapper-l {
+  padding: 0 2*$em;
+  max-width: 80*$em;
+  margin: 2*$em auto;
+}
+.wrapper-max {
+  padding: 0 2*$em;
+  margin: 2*$em auto;
+}
+
+p + *,
+ul + p,
+img + p,
+object + p {
+  margin-top: 1.414*$em;
+}
