@@ -4,11 +4,11 @@
     <title>Bill Hinderman</title>
     <description>The professional resume of Bill Hinderman: engineer, designer, author, and national speaker.
 </description>
-    <link>http://resume.billhinderman.com/</link>
-    <atom:link href="http://resume.billhinderman.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 24 Aug 2017 00:04:28 -0500</pubDate>
-    <lastBuildDate>Thu, 24 Aug 2017 00:04:28 -0500</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 16 Nov 2017 13:04:13 -0600</pubDate>
+    <lastBuildDate>Thu, 16 Nov 2017 13:04:13 -0600</lastBuildDate>
+    <generator>Jekyll v3.6.0</generator>
     
       <item>
         <title>Test!</title>
@@ -28,8 +28,8 @@
 
 </description>
         <pubDate>Wed, 09 Sep 2015 04:33:15 -0500</pubDate>
-        <link>http://resume.billhinderman.com/jekyll/update/2015/09/09/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://resume.billhinderman.com/jekyll/update/2015/09/09/welcome-to-jekyll.html</guid>
+        <link>http://localhost:4000/jekyll/update/2015/09/09/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2015/09/09/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
