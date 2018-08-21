@@ -6,6 +6,7 @@ body {
   flex-direction: column;
   line-height: 1.44;
   min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
 }
 
 * {
@@ -76,5 +77,3 @@ img {
 * html .resume-item-main
 .clearfix,
 .resume-item-main { display: block; }
-
-
