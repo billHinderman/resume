@@ -49,7 +49,8 @@ body {
   font-family: "freight-text-pro", Georgia, serif;
   flex-direction: column;
   line-height: 1.44;
-  min-height: 100vh; }
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased; }
 
 * {
   box-sizing: border-box; }
@@ -121,6 +122,17 @@ img {
 .resume-item-main {
   display: block; }
 
+@media screen {
+  #section-print {
+    display: none; } }
+@media print {
+  .site-header,
+  .site-footer,
+  .section-resume {
+    display: none; }
+
+  #section-print {
+    display: block !important; } }
 .flex-container {
   align-content: flex-start;
   align-items: flex-start;

@@ -77,3 +77,20 @@ img {
 * html .resume-item-main
 .clearfix,
 .resume-item-main { display: block; }
+
+@media screen {
+  #section-print {
+    display: none;
+  }
+}
+
+@media print {
+  .site-header,
+  .site-footer,
+  .section-resume {
+    display: none;
+  }
+  #section-print {
+    display: block !important;
+  }
+}
