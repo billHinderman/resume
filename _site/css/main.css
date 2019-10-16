@@ -460,6 +460,11 @@ form b {
 
 .site-footer {
   background: #fdfdfd; }
+  .site-footer .wrapper-l {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; }
 
 .love-footer {
   border-bottom: 1px solid #eee;
