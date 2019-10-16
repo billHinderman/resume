@@ -188,6 +188,13 @@ h4 {
   font-weight: bold;
   font-style: italic; }
 
+.text-highlight {
+  background: #f1c40f;
+  font-family: Helvetica Neue, "nimbus-sans", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 0 2px; }
+
 .text-black {
   color: #231f20; }
 
@@ -390,6 +397,49 @@ form b {
   font-family: Helvetica Neue, "nimbus-sans", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 12px; }
+
+.page-main--pdf {
+  font-size: 12px; }
+  .page-main--pdf .wrapper {
+    margin: 16px auto; }
+  .page-main--pdf .wrapper-s {
+    padding: 0 32px;
+    max-width: 1024px;
+    margin: 16px auto; }
+  .page-main--pdf .link {
+    font-size: 11px !important; }
+  .page-main--pdf .section-resume {
+    padding: 8px 0; }
+  .page-main--pdf .section-resume + .section-resume {
+    border-top: 2px solid #eee; }
+  .page-main--pdf .bg-white-not {
+    background: none; }
+  .page-main--pdf #section-publication .resume-item .resume-item-description:last-child,
+  .page-main--pdf #section-presentation .resume-item .resume-item-description:last-child,
+  .page-main--pdf #section-project .resume-item .resume-item-description:last-child {
+    display: none; }
+  .page-main--pdf h3 {
+    font-size: 16px; }
+  .page-main--pdf .contact-list {
+    display: block;
+    width: 100%; }
+    .page-main--pdf .contact-list li {
+      display: inline-block;
+      margin-bottom: 8px;
+      width: 33%; }
+  .page-main--pdf .skills-list {
+    display: block;
+    width: 100%; }
+    .page-main--pdf .skills-list li {
+      display: inline-block;
+      width: 33%; }
+  .page-main--pdf .resume-item-heading {
+    float: left;
+    width: 69%; }
+  .page-main--pdf .resume-item-info {
+    float: right;
+    max-width: 30%;
+    text-align: right; }
 
 .contact-list {
   -webkit-column-count: 3;

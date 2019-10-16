@@ -7,6 +7,7 @@
     font-size: 1.414*$em;
   }
 }
+
 #section-gist .link {
   font-size: $em;
 }
@@ -85,4 +86,63 @@
   font-family: $helvetica;
   font-weight: bold;
   font-size: .75*$em;
+}
+
+
+.page-main--pdf {
+  font-size: 12px;
+  .wrapper {
+    margin: $em auto;
+  }
+  .wrapper-s {
+    padding: 0 2*$em;
+    max-width: 64*$em;
+    margin: $em auto;
+  }
+  .link {
+    font-size: 11px !important;
+  }
+  .section-resume {
+    padding: 8px 0;
+  }
+  .section-resume + .section-resume {
+    border-top: 2px solid $grey_lt;
+  }
+  .bg-white-not {
+    background: none;
+  }
+  #section-publication .resume-item .resume-item-description:last-child,
+  #section-presentation .resume-item .resume-item-description:last-child,
+  #section-project .resume-item .resume-item-description:last-child {
+    display: none;
+  }
+  h3 {
+    font-size: $em;
+  }
+  .contact-list {
+    display: block;
+    width: 100%;
+    li {
+      display: inline-block;
+      margin-bottom: 8px;
+      width: 33%;
+    }
+  }
+  .skills-list {
+    display: block;
+    width: 100%;
+    li {
+      display: inline-block;
+      width: 33%;
+    }
+  }
+  .resume-item-heading {
+    float: left;
+    width: 69%;
+  }
+  .resume-item-info {
+    float: right;
+    max-width: 30%;
+    text-align: right;
+  }
 }
