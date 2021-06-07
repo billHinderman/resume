@@ -4,17 +4,17 @@
     <title>Bill Hinderman</title>
     <description>The professional resume of Bill Hinderman: engineer, designer, author, and national speaker.
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 16 Oct 2019 16:33:51 -0500</pubDate>
-    <lastBuildDate>Wed, 16 Oct 2019 16:33:51 -0500</lastBuildDate>
-    <generator>Jekyll v3.8.6</generator>
+    <link>http://resume.billhinderman.com/</link>
+    <atom:link href="http://resume.billhinderman.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 07 Jun 2021 12:22:50 -0500</pubDate>
+    <lastBuildDate>Mon, 07 Jun 2021 12:22:50 -0500</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
     
       <item>
         <title>Test!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
 &lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
 
@@ -28,8 +28,8 @@
 
 </description>
         <pubDate>Wed, 09 Sep 2015 04:33:15 -0500</pubDate>
-        <link>http://localhost:4000/jekyll/update/2015/09/09/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2015/09/09/welcome-to-jekyll.html</guid>
+        <link>http://resume.billhinderman.com/jekyll/update/2015/09/09/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://resume.billhinderman.com/jekyll/update/2015/09/09/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
