@@ -83,3 +83,14 @@ img {
     display: none;
   }
 }
+
+@media print {
+  .site-header,
+  .site-footer,
+  .section-resume {
+    display: none;
+  }
+  #section-print {
+    display: block !important;
+  }
+}
