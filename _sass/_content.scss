@@ -26,7 +26,16 @@
   font-weight: bold;
   font-size: .75*$em;
 }
-
+.resume-item-roles {
+  font-family: $helvetica;
+  font-weight: bold;
+  font-size: .75*$em;
+  line-height: .75*$em;
+  padding-bottom: .5*$em;
+}
+.resume-item-roles__title {
+  color: $grey_md;
+}
 .resume-item-location {
   font-size: $em;
 }
